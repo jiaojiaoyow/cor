@@ -13,6 +13,7 @@
         <module>cor_recruit</module>
         <module>cor_qa</module>
         <module>cor_article</module>
+        <module>cor_gathering</module>
     </modules>
     <packaging>pom</packaging>
 
