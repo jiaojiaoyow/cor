@@ -15,4 +15,5 @@ spring:
       #修改映射 如：127.0.0.1 config-3344.com
       #中文最好删掉，有可能会报错
       uri: http://config-3344.com（写ip地址）:3344
-      profile: test
+      # 环境统一dev
+      profile: dev
