@@ -13,6 +13,7 @@
         <module>cor_recruit</module>
         <module>cor_qa</module>
         <module>cor_article</module>
+        <module>cor_config</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -25,6 +26,18 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
 
@@ -53,8 +66,6 @@
         </dependency>
 
     </dependencies>
-
-
 
 
 </project>
