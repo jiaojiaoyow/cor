@@ -23,7 +23,6 @@ public class LabelController {
     @RequestMapping(method = RequestMethod.GET)
     public Result findAll(){
         List<Label> labelList=labelService.findAll();
-        int i=1/0;
         return new Result(true, StatusCode.SUCCESS.getCode(),"查询成功",labelList);
     }
 
