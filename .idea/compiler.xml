@@ -8,15 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cor_article" />
         <module name="cor_common" />
+        <module name="cor_config" />
         <module name="cor_database" />
         <module name="cor_gathering" />
+        <module name="cor_mongo" />
         <module name="cor_qa" />
         <module name="cor_recruit" />
+        <module name="cor_spit" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cor_base" target="1.8" />
-      <module name="cor_test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

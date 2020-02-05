@@ -1,0 +1,19 @@
+添加依赖
+  <!-- SpringCloud Config 客户端 -->
+  <dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-config</artifactId>
+  </dependency>
+创建 bootstrap.yml
+写
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-client
+      label: master
+      #前面在自己电脑最好修改c:\Windows\System32\drivers\etc\hosts 文件
+      #修改映射 如：127.0.0.1 config-3344.com
+      #中文最好删掉，有可能会报错
+      uri: http://config-3344.com（写ip地址）:3344
+      # 环境统一dev
+      profile: dev
