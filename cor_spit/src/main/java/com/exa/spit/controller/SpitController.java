@@ -107,7 +107,7 @@ public class SpitController {
          return new Result(false,StatusCode.OPERATION_FAIL.getCode(),"不能重复点赞");
         }
         spitService.updateThumbup(id);
-
+        redisTemplate.opsForValue().set("thumbup"+userid,1);
         return new Result(true, StatusCode.SUCCESS.getCode(), "点赞成功");
     }
 }
