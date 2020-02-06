@@ -14,6 +14,7 @@
         <module name="cor_mongo" />
         <module name="cor_qa" />
         <module name="cor_recruit" />
+        <module name="cor_search" />
         <module name="cor_spit" />
       </profile>
     </annotationProcessing>

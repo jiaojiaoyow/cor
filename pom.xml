@@ -16,6 +16,7 @@
         <module>cor_config</module>
         <module>cor_mongo</module>
         <module>cor_spit</module>
+        <module>cor_search</module>
     </modules>
     <packaging>pom</packaging>
 
