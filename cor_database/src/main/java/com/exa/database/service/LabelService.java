@@ -81,7 +81,7 @@ public class LabelService {
                     list.add(predicate1);
                 }
 
-                if(label.getLabelname()!=null&&"".equals(label.getLabelname())){
+                if(label.getState()!=null&&"".equals(label.getState())){
                     Predicate predicate1=criteriaBuilder.equal(root.get("state").as(String.class),label.getState());
                     list.add(predicate1);
                 }
@@ -114,7 +114,7 @@ public class LabelService {
                     list.add(predicate1);
                 }
 
-                if(label.getLabelname()!=null&&"".equals(label.getLabelname())){
+                if(label.getState()!=null&&"".equals(label.getState())){
                     Predicate predicate1=criteriaBuilder.equal(root.get("state").as(String.class),label.getState());
                     list.add(predicate1);
                 }
