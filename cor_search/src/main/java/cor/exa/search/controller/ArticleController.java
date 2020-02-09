@@ -29,14 +29,14 @@ public class ArticleController {
 
     /**
      * 根据关键字查询
-     * @param keyswords
+     * @param keywords
      * @param page
      * @param size
      * @return
      */
     @RequestMapping(value = "/search/{keywords}/{page}/{size}", method = RequestMethod.GET)
-    public Result findByKeywords(@PathVariable String keyswords, @PathVariable int page, @PathVariable int size){
-        PageResult pageResult = articleService.findByKeywords(keyswords, page, size);
+    public Result findByKeywords(@PathVariable String keywords, @PathVariable int page, @PathVariable int size){
+        PageResult pageResult = articleService.findByKeywords(keywords, page, size);
         return new Result(true, StatusCode.SUCCESS.getCode(), "查询成功", pageResult);
     }
 }

@@ -17,6 +17,7 @@
         <module>cor_mongo</module>
         <module>cor_spit</module>
         <module>cor_search</module>
+        <module>cor_gathering</module>
     </modules>
     <packaging>pom</packaging>
 
