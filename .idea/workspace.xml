@@ -1,29 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2475d99c-181a-4000-8c8d-81e506d87096" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2475d99c-181a-4000-8c8d-81e506d87096" name="Default Changelist" comment="到Jwt，短信验证没有写，后期换成邮箱">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cor_common/target/" />
+    <ignored path="$PROJECT_DIR$/cor_base/target/" />
+    <ignored path="$PROJECT_DIR$/cor_test/target/" />
+    <ignored path="$PROJECT_DIR$/cor_database/target/" />
+    <ignored path="$PROJECT_DIR$/cor_recruit/target/" />
+    <ignored path="$PROJECT_DIR$/cor_qa/target/" />
+    <ignored path="$PROJECT_DIR$/cor_article/target/" />
+    <ignored path="$PROJECT_DIR$/cor_gathering/target/" />
+    <ignored path="$PROJECT_DIR$/cor_search/target/" />
+    <ignored path="$PROJECT_DIR$/cor_rabbittest/target/" />
+    <ignored path="$PROJECT_DIR$/cor_mongo/target/" />
+    <ignored path="$PROJECT_DIR$/cor_spit/target/" />
+    <ignored path="$PROJECT_DIR$/cor_config/target/" />
+    <ignored path="$PROJECT_DIR$/cor_user/target/" />
+    <ignored path="$PROJECT_DIR$/cor_sms/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1021166102">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="106" />
+          <entry key="kt" value="1" />
+          <entry key="xml" value="35" />
+          <entry key="y,l" value="1" />
+          <entry key="yml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="3" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="106" />
+          <entry key="Kotlin" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="35" />
+          <entry key="YAML" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="18" />
+          <entry key="java" value="5667" />
+          <entry key="txt" value="22" />
+          <entry key="xml" value="355" />
+          <entry key="yml" value="432" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5666" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="355" />
+          <entry key="YAML" value="432" />
         </counts>
       </usages-collector>
     </session>
@@ -31,10 +112,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/service/ArticleService.java">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="492">
+              <caret line="149" column="12" selection-start-line="149" selection-start-column="12" selection-end-line="150" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config/InterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="202" column="13" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/interceptor/Jwtinterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,79 +154,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="995">
+              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+              <folding>
+                <element signature="method#login#0;class#AdminController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_database/src/main/java/com/exa/database/service/LabelService.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/controller/BaseExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/GatherApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/pojo/Gathering.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/dao/GatheringDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cor_search/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="57">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -129,8 +200,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/controller/ColumnController.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/controller/ChannelController.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/ArtApplication.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/service/ChannelService.java" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/service/ColumnService.java" />
+        <option value="$PROJECT_DIR$/cor_qa/src/main/java/com/exa/qa/service/ReplyService.java" />
+        <option value="$PROJECT_DIR$/cor_qa/src/main/java/com/exa/qa/service/ProblemService.java" />
+        <option value="$PROJECT_DIR$/cor_recruit/src/main/java/com/exa/recruit/service/EnterpriseService.java" />
+        <option value="$PROJECT_DIR$/cor_recruit/src/main/java/com/exa/recruit/service/RecruitService.java" />
+        <option value="$PROJECT_DIR$/cor_article/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/java/com/exa/article/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/cor_gathering/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_database/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/controller/GatheringController.java" />
+        <option value="$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/controller/BaseExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/cor_gathering/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_article/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/GatherApplication.java" />
+        <option value="$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/service/GatheringService.java" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/RabbitApplication.java" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/customer/Customer1.java" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/customer/Customer2.java" />
+        <option value="$PROJECT_DIR$/cor_rabbittest/src/test/java/com/exa/test/Product.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/BaseExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/cor_spit/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_sms/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_sms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_sms/src/main/java/com/exa/sms/SmsApplication.java" />
+        <option value="$PROJECT_DIR$/cor_sms/src/main/java/com/exa/sms/listener/SmsListener.java" />
+        <option value="$PROJECT_DIR$/cor_user/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/cor_common/pom.xml" />
+        <option value="$PROJECT_DIR$/cor_common/src/test/java/com/exa/jwt/parseJwt.java" />
+        <option value="$PROJECT_DIR$/cor_common/src/test/java/com/exa/jwt/CreateJwt.java" />
+        <option value="$PROJECT_DIR$/cor_common/src/main/java/util/JWTUtil.java" />
+        <option value="$PROJECT_DIR$/cor_common/src/main/java/util/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/interceptor/Jwtinterceptor.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/UserService.java" />
       </list>
     </option>
   </component>
@@ -140,16 +260,33 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Idea_Maven\m2\repository" />
+        <option name="userSettingsFile" value="D:\Idea_Maven\m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand />
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,30 +307,25 @@
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -201,7 +333,7 @@
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -210,7 +342,7 @@
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -220,134 +352,197 @@
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_database" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
+              <item name="cor_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-              <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-              <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-              <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="cor_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-              <item name="exa" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exa" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="amqp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580975965227" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/SpringCloud_Demo/cloud_friend/cooperation/cor_database/src/main/java/com/exa/database/service/LabelService.java&#10;lombok&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581231130586" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -358,6 +553,95 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.CreateJwt">
+    <configuration name="CreateJwt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exa.jwt.CreateJwt" />
+      <module name="cor_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exa.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Product.testQueueSend1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cor_rabbittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.exa.test.Product" />
+      <option name="METHOD_NAME" value="testQueueSend1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Product.testQueueSend2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cor_rabbittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.exa.test.Product" />
+      <option name="METHOD_NAME" value="testQueueSend2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cor_sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exa.sms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exa.sms.SmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cor_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exa.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exa.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Product.testQueueSend1" />
+      <item itemvalue="JUnit.Product.testQueueSend2" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.SmsApplication" />
+      <item itemvalue="Application.CreateJwt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CreateJwt" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.SmsApplication" />
+        <item itemvalue="JUnit.Product.testQueueSend2" />
+        <item itemvalue="JUnit.Product.testQueueSend1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -374,34 +658,62 @@
       <workItem from="1580537960279" duration="4028000" />
       <workItem from="1580616136948" duration="16140000" />
       <workItem from="1580701492761" duration="6667000" />
-      <workItem from="1580797226452" duration="9596000" />
-      <workItem from="1580874604632" duration="4714000" />
-      <workItem from="1580959378975" duration="4744000" />
+      <workItem from="1581045063339" duration="1918000" />
+      <workItem from="1581080197758" duration="1196000" />
+      <workItem from="1581132447226" duration="7921000" />
+      <workItem from="1581148728581" duration="3890000" />
+      <workItem from="1581166606040" duration="7894000" />
+      <workItem from="1581219951258" duration="4897000" />
     </task>
-    <task id="LOCAL-00001" summary="2020年2月6日15点25分">
-      <created>1580974313878</created>
+    <task id="LOCAL-00001" summary="到Jwt，短信验证没有写，后期换成邮箱">
+      <created>1581224193036</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1580974313878</updated>
-    </task>
-    <task id="LOCAL-00002" summary="2020年2月6日15点25分">
-      <created>1580973963170</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1580973963170</updated>
+      <updated>1581224193036</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Product_testQueueSend - 2020.02.08 at 13h 18m 40s.xml">
+      <configuration name="Product.testQueueSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend - 2020.02.08 at 13h 22m 53s.xml">
+      <configuration name="Product.testQueueSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend - 2020.02.08 at 13h 24m 27s.xml">
+      <configuration name="Product.testQueueSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend - 2020.02.08 at 13h 25m 24s.xml">
+      <configuration name="Product.testQueueSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend1 - 2020.02.08 at 13h 37m 23s.xml">
+      <configuration name="Product.testQueueSend1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend2 - 2020.02.08 at 13h 42m 29s.xml">
+      <configuration name="Product.testQueueSend2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend2 - 2020.02.08 at 13h 44m 49s.xml">
+      <configuration name="Product.testQueueSend2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend2 - 2020.02.08 at 13h 45m 06s.xml">
+      <configuration name="Product.testQueueSend2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend2 - 2020.02.08 at 13h 45m 30s.xml">
+      <configuration name="Product.testQueueSend2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Product_testQueueSend2 - 2020.02.08 at 13h 47m 46s.xml">
+      <configuration name="Product.testQueueSend2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1229000" />
+    <option name="totallyTimeSpent" value="75213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23324397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -411,35 +723,43 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32297298" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34146342" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7582873" weight="0.42411923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40379405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49798927" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49798927" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.42411923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.40248963" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.5698479" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="mongodb初步写好" />
     <MESSAGE value="2020年2月6日15点25分" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年2月6日15点25分" />
+    <MESSAGE value="到Jwt，短信验证没有写，后期换成邮箱" />
+    <option name="LAST_COMMIT_MESSAGE" value="到Jwt，短信验证没有写，后期换成邮箱" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,64 +777,112 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cor_mongo/src/main/java/com/exa/mongo/MongoTest.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/cor_rabbittest/src/test/java/com/exa/test/Product.java</url>
+          <line>11</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/pojo/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cor_database/src/main/java/com/exa/database/service/LabelService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/main/resources/application.yml.kt" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="1311">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/dao/ArticleDao.java">
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/controller/ArticleController.java">
+    <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/GatherApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="247">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/pojo/Gathering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_gathering/src/main/java/com/exa/gathering/dao/GatheringDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/RabbitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/customer/Customer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/main/java/com/exa/rabbittest/customer/Customer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/test/java/com/exa/test/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,9 +890,364 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cor_recruit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_article/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_rabbittest/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_spit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_spit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_spit/src/main/java/com/exa/spit/controller/SpitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_spit/src/main/java/com/exa/spit/SpitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_spit/src/main/java/com/exa/spit/service/SpitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_search/src/main/java/cor/exa/search/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_sms/src/main/java/com/exa/sms.java" />
+    <entry file="file://$PROJECT_DIR$/cor_sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_sms/src/main/java/com/exa/sms/SmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_sms/src/main/java/com/exa/sms/listener/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config.java" />
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_common/src/test/java/com/exa/jwt/parseJwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_common/src/test/java/com/exa/jwt/CreateJwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_common/src/main/java/util/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_common/src/main/java/util/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="170" column="23" lean-forward="true" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+          <folding>
+            <element signature="method#login#0;class#AdminController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/interceptor/Jwtinterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="149" column="12" selection-start-line="149" selection-start-column="12" selection-end-line="150" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cor_user/src/main/java/com/exa/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="202" column="13" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cor_base:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cooperation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

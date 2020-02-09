@@ -13,9 +13,12 @@
         <module name="cor_gathering" />
         <module name="cor_mongo" />
         <module name="cor_qa" />
+        <module name="cor_rabbittest" />
         <module name="cor_recruit" />
         <module name="cor_search" />
+        <module name="cor_sms" />
         <module name="cor_spit" />
+        <module name="cor_user" />
       </profile>
     </annotationProcessing>
   </component>
