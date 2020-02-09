@@ -1,0 +1,7 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: cor_sms
+  rabbitmq:
+    host: 101.37.149.133
