@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: cor-spit
+  redis:
+    host: 101.37.149.133
   data:
-    mongodb:
-      host: 101.37.149.133
-      database: spitdb
-    redis:
-      host: 101.37.149.133
+  mongodb:
+    host: 101.37.149.133
+    database: spitdb
