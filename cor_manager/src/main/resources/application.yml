@@ -1,0 +1,23 @@
+server:
+  port: 9011
+
+spring:
+  application:
+    name: cor-manager
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  #      解决跨域问题
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    cor_base:
+      path: /datebase/**   #配置请求url的请求规则
+      serviceId: cor-database #指定服务的id
+jwt:
+  config:
+    key: test
+    ttl: 3600000

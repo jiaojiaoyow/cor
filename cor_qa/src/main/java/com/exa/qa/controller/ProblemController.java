@@ -2,6 +2,7 @@ package com.exa.qa.controller;
 import java.util.List;
 import java.util.Map;
 
+import com.exa.qa.client.BaseClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -29,6 +30,16 @@ public class ProblemController {
 
 	@Autowired
 	private ProblemService problemService;
+
+	@Autowired
+	private BaseClient baseClient;
+
+	//去调用base的服务
+	@RequestMapping(value = "/label/{labelId}",method = RequestMethod.GET)
+	public Result findByLabelId(@PathVariable String labelId){
+		Result result=baseClient.findById(labelId);
+		return result;
+	}
 	
 	
 	/**

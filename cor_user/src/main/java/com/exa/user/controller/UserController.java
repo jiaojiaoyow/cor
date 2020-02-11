@@ -6,12 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.exa.user.pojo.User;
 import com.exa.user.service.UserService;
@@ -39,8 +34,20 @@ public class UserController {
 
 	@Autowired
 	private RedisTemplate redisTemplate;
-	
-	
+
+
+	/**
+	 * 更新被关注好友粉丝数跟用户自己的关注数
+	 * @param userId
+	 * @param friendId
+	 */
+	@PutMapping("/{userId}/{friendId}/{num}")
+	public void updateFansAndFollower(@PathVariable String userId, @PathVariable String friendId, @PathVariable int num) {
+		userService.updateFansAndFollower(num, userId, friendId);
+	}
+
+
+
 	/**
 	 * 查询全部数据
 	 * @return

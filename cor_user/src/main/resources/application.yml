@@ -21,3 +21,11 @@ jwt:
   config:
     key: test
     ttl: 3600000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  #      解决跨域问题
+  instance:
+    prefer-ip-address: true

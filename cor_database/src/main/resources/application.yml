@@ -5,10 +5,18 @@ spring:
     name: cor-database
 
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.37.149.133:3306/tensquare_base?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://101.37.149.133:3306/tensquare_base?characterEncoding=UTF8
     username: root
     password: root
   jpa:
     database: mysql
     show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  #      解决跨域问题
+  instance:
+    prefer-ip-address: true

@@ -20,6 +20,11 @@
         <module>cor_rabbittest</module>
         <module>cor_user</module>
         <module>cor_sms</module>
+        <module>cor_gathering</module>
+        <module>cor_eureka</module>
+        <module>cor_frient</module>
+        <module>cor_manager</module>
+        <module>cor_web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -75,6 +80,24 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!--eureka客户端-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+<!--feign的支持-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!-- Spring Cloud Config客户端依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
     </dependencies>
