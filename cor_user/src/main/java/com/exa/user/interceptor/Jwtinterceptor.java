@@ -25,7 +25,7 @@ public class Jwtinterceptor implements HandlerInterceptor {
         //无论如何都放行，具体能不能操作在具体操作
         //拦截器只负责把请求头的token进行解析
         String header= request.getHeader("Authorization");
-        if(header!=null||!header.isEmpty()){
+        if(header!=null&&!header.isEmpty()){
             //如果包含头信息，就对其进行解析
             if (header.startsWith("Bearer")){
                 //得到令牌

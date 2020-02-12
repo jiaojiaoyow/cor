@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:6868/eureka/
+      defaultZone: http://eureka6868.com:6868/eureka/
   #      解决跨域问题
   instance:
     prefer-ip-address: true
@@ -23,3 +23,9 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+
+jwt:
+  config:
+    key: test
+    ttl: 3600000
