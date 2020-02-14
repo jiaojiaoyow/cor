@@ -8,5 +8,5 @@ eureka:
     #    是否将自己注册到eureka服务中
     register-with-eureka: false
     service-url:
-      defaultZone: http://127.0.0.1:${server.port}/eureka/
+      defaultZone: http://eureka6868.com:${server.port}/eureka/
 
