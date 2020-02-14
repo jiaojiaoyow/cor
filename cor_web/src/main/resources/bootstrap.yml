@@ -4,4 +4,4 @@ spring:
       name: web
       profile: dev
       label: master
-      uri: http://127.0.0.1:3344
+      uri: http://config-3344.com:3344
