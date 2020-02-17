@@ -25,6 +25,7 @@
         <module>cor_frient</module>
         <module>cor_manager</module>
         <module>cor_web</module>
+        <module>cor_order</module>
     </modules>
     <packaging>pom</packaging>
 
